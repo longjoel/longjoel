@@ -1,0 +1,33 @@
+[
+    {
+        "name": "CH Robinson",
+        "location": "Eden Prairie, MN",
+        "dateStart": "2020-10-05",
+        "dateEnd": "current",
+        "summary":"",
+        "roles": [
+            "Software Engineer II",
+            "Software Engineer III"
+        ],
+        "teams": [
+            "IT Rotational Developers",
+            "Tools & Patterns",
+            "Hatchry support team"
+        ],
+        "tools": [
+            "Windows Forms",
+            "WPF",
+            ".net Framework",
+            ".net Core",
+            "Node",
+            "Angular JS",
+            "React",
+            "Service Stack",
+            "ASP.net MVC / API",
+            "Jest",
+            "Tape",
+            "Puppeteer",
+            "Express"
+        ]
+    }
+]
