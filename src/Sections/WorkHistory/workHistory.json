@@ -1,0 +1,132 @@
+[
+    {
+        "name": "CH Robinson",
+        "location": "Eden Prairie, MN",
+        "dateStart": "2015-10-05",
+        "dateEnd": "current",
+        "summary": "As part of the tools and patterns team, developed tools and components used internally. This includes custom react components. Full stack developer working in the react typescript space and .net + service stack microservices across all areas of the company as part of the IT Rotational Development team. Peer and new developer mentor as part of the Hatchry internal Robinson bootcamp.",
+        "roles": [
+            "Software Engineer II",
+            "Software Engineer III"
+        ],
+        "teams": [
+            "IT Rotational Developers",
+            "Tools & Patterns",
+            "Hatchry support team"
+        ],
+        "tools": [
+            "Windows Forms",
+            "WPF",
+            ".net Framework",
+            ".net Core",
+            "Node",
+            "Angular JS",
+            "React",
+            "Service Stack",
+            "ASP.net MVC / API",
+            "Jest",
+            "Tape",
+            "Puppeteer",
+            "Express",
+            "SQL",
+            "Git","Github","TFS","Docker"
+        ]
+    },
+    {
+        "name": "Emerson Processing (MCS)",
+        "location": "Chanhassen, MN",
+        "dateStart": "2013-12-01",
+        "dateEnd": "2015-10-01",
+        "summary": "Using .NET, SQL, and GPIB to write nuclear qualified testing modules for Global Manufacturing System to test components for commercial grade dedication and measure time response for nuclear qualified modules and transmitters. Worked closely with GMS team and High Integrity team using TFS. Used red gate tools to design and manage database tables and data. Using SQL 2012 and Report Builder 3 to generate and present discrepancy reports used by Nuclear team in tracking defective materials and generate Bill of Materials for transmitters based on serial number.",
+        "roles": [
+            "Programmer Analyst II"
+        ],
+        "teams": [
+            "Nuclear"
+        ],
+        "tools": [
+            "NI Test Stand",
+            "GPIB",
+            ".net Platform",
+            "VBA office scripting",
+            "Visual Basic",
+            "SQL", "LabView"
+        ]
+    }, {
+        "name": "Univita / LTCG (MCS)",
+        "location": "Eden Prairie, MN",
+        "dateStart": "2012-03-01",
+        "dateEnd": "2013-12-01",
+        "summary": "Used .NET, C#, SQL, Entity Framework, WCF and Enterprise Library to develop and maintain a growing CRM application used by nurses and managers internally across the country to manage cases, paperwork, and calls. Involves document processing, form management and fax processing. Our team of 4+ used Jira to manage our 6 week development cycle and TFS to manage source control. Integrated several new significant business clients and workflows to application.",
+        "roles": [
+            "Programmer Analyst II"
+        ],
+        "teams": [
+            "Software"
+        ],
+        "tools": [
+            ".Net Platform",
+            "C#",
+            "VB .Net",
+            "Entity Framework",
+            "WCF",
+            "SQL", "Enterprise Library",
+            "Jira"
+        ]
+    },{
+        "name": "Emerson Processing (MCS)",
+        "location": "Chanhassen, MN",
+        "dateStart": "2010-10-01",
+        "dateEnd": "2012-03-01",
+        "summary": "Using .NET, C#, SQL, Entity Framework, WCF, Enterprise Library, Log4Net, MSMQueue and Test Stand to develop a test environment as part of larger software suite to test transmitter products in a variety of scenarios. Tests were constructed with Test Stand scripts on one or more circuits. Application deployed to 3 different labs in 3 countries.",
+        "roles": [
+            "Programmer Analyst"
+        ],
+        "teams": [
+            "Testing"
+        ],
+        "tools": [
+            "NI Test Stand",
+            "GPIB",
+            ".net Platform",
+            "VBA office scripting",
+            "Visual Basic",
+            "SQL", "LabView"
+        ]
+    },{
+        "name": "Multiband",
+        "location": "Fargo, ND",
+        "dateStart": "2009-11-01",
+        "dateEnd": "2010-07-01",
+        "summary": "Developed a Handheld tool using .NET compact framework, SQL and for use by installers to help them manage inventory, make additional sales, take digital signatures. Used a method to store data locally on device until in range of a cell phone antenna to transmit data. Deployed to over 50K installers. Call center software and sales lead management utility that integrated with other internal  products, replacing 5 or 6 Excel spreadsheets used to track calls and leads and older outdated software.",
+        "roles": [
+            "Programmer Analyst"
+        ],
+        "teams": [
+            "Software"
+        ],
+        "tools": [
+            ".Net Platform",
+            "SQL",
+            "VB .Net"
+        ]
+    },
+    {
+        "name": "Upper Great Plains Transportation Institute",
+        "location": "Fargo, ND",
+        "dateStart": "2008",
+        "dateEnd": "2009",
+        "summary": "",
+        "roles": [
+            "Intern"
+        ],
+        "teams": [
+            "Department of Transportation Support Center"
+        ],
+        "tools": [
+            ".Net Platform",
+            "SQL",
+            "VB .Net"
+        ]
+    }
+]
