@@ -13,7 +13,7 @@ const AppBarItem = ({ children, location = '' }) => {
 
 }
 
-const AppBar = () => <div class="navbar navbar-expand navbar-light bg-light sticky-top" >
+const AppBar = () => <div class="navbar navbar-expand navbar-light bg-light sticky-top p-3" >
   <AppBarItem ><b>Joel Longanecker</b></AppBarItem> <AppBarDivider />
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,12 +34,16 @@ function App() {
       <AppBar />
       <AboutMe />
       <Projects/>
-      <PageSection id="contact" title="Contact" caption="Hey! I'm over here!">
-
+      <PageSection id="contact" title="Contact" >
+        <div className="card p-3 m-3">
+        <p>The best way to reach me is to email me at <a href="mailto:joel.longanecker@gmail.com">Joel.Longanecker@gmail.com</a>. </p>
+        </div>
       </PageSection>
 
-      <PageSection id="education" title="Education" caption="I managed to convince them to give me a degree...">
-
+      <PageSection id="education" title="Education" >
+      <div className="card p-3 m-3">
+        <p>I graduated from North Dakota State University in the spring of 2010 with a Bachelors of Science degree in Computer Science.</p>
+        </div>
       </PageSection>
 
       <WorkHistory />

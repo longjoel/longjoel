@@ -5,7 +5,7 @@ export default  ({ id, title, caption, children }) => {
         <div className="row">
           <div className="col-md-3 col-sm-12">
             <div>
-              <h3 ><a class="text-dark" id={id} href={`#${id}`}>{title}</a></h3>
+              <h3 ><a class="anchor text-dark" id={id} href={`#${id}`}>{title}</a></h3>
               <h5><em>{caption}</em></h5>
             </div>
           </div>

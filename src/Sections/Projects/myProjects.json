@@ -15,6 +15,12 @@
         "name": "Mame Miner",
         "status": "Complete",
         "url": "https://github.com/longjoel/MameMiner",
-        "summary": "A tool to extract unmerged roms from a zip file to be used with the Multiple Arcade Machine Emulator"
+        "summary": "A tool to extract unmerged roms from a zip file to be used with the Multiple Arcade Machine Emulator."
+    },
+    {
+        "name": "MicroFE",
+        "status": "Complete",
+        "url": "https://github.com/longjoel/MicroFE",
+        "summary": "MicroFE is a hyper-minimalist emulator frontend written in .NET with a single file configuration scheme."
     }
 ]

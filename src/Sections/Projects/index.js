@@ -1,7 +1,8 @@
 import PageSection from '../../Components/PageSection';
 import myProjects from './myProjects.json';
 
-export default () => <PageSection id="projects" title="My Projects" caption="Check out the cool things I have worked on!">
+export default () => <PageSection id="projects" title="My Projects" 
+caption="I really enjoy the unique challenges provided by game development and game engine design, as well as writing windows native apps.">
 
     {myProjects.map(project=> <div className="card p-3 m-3">
         <div className="card-body">

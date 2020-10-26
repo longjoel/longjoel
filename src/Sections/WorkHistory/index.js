@@ -12,12 +12,13 @@ const WorkHistoryTool = ({ tool }) => <span><span
 export default () => <PageSection
   id="workHistory"
   title="Work History"
-  caption="Is a man not entitled to the sweat of his brow?">
+  caption="I have a passion for learning and growing. Here are some of the places that I have been able to do that.">
   {jobs.map(job => {
-    return <div id={job.name}>
+    return <div className="card card p-3 m-3" id={job.name}>
 
-      <h3>{job.name}</h3>
-      <em><b>{job.dateStart} to {job.dateEnd}</b></em>
+<div className="card-body">
+      <h4 className="card-title">{job.name}</h4>
+      <h6 className="card-subtitle text-secondary"><em>{job.dateStart} to {job.dateEnd}</em></h6>
       <p>{job.summary}</p>
       <div className="row">
         <div className="col-md-4 col-sm-12">
@@ -34,7 +35,7 @@ export default () => <PageSection
           <div>Tools:</div>
 
           {job.tools.map(tool => <WorkHistoryTool tool={tool} />)}
-
+          </div>
         </div>
       </div>
       <br />
