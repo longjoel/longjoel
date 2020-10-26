@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Bad-Bits",
+        "status": "Active",
+        "url": "https://github.com/longjoel/bad-bits",
+        "summary": "A 2d/3d .NET core and JavaScript powered retro game engine that leverages MonoGame for rendering, and is compatible with Typescript and CommonJS."
+    },
+    {
+        "name": "Age of Chaos",
+        "status": "Inactive",
+        "url": "https://github.com/longjoel/AgeOfChaos",
+        "summary": "A work in progress game for MS Dos. It uses docker to execute the compiler, and python to manage the build."
+    },
+    {
+        "name": "Mame Miner",
+        "status": "Complete",
+        "url": "https://github.com/longjoel/MameMiner",
+        "summary": "A tool to extract unmerged roms from a zip file to be used with the Multiple Arcade Machine Emulator"
+    }
+]

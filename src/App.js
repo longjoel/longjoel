@@ -1,6 +1,7 @@
 import PageSection from './Components/PageSection';
 import WorkHistory from './Sections/WorkHistory';
 import AboutMe from './Sections/AboutMe';
+import Projects from './Sections/Projects';
 import MD from './Components/Md';
 
 
@@ -32,11 +33,7 @@ function App() {
     <div className="App bg-dark" style={{ height: '100%' }}>
       <AppBar />
       <AboutMe />
-      <PageSection id="projects" title="Projects" caption="Things I have worked on independently.">
-        <ul>
-          <li>Bad Bits Game Engine</li>
-        </ul>
-      </PageSection>
+      <Projects/>
       <PageSection id="contact" title="Contact" caption="Hey! I'm over here!">
 
       </PageSection>
