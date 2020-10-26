@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.f89e5290.chunk.js",
-    "main.js.map": "/static/js/main.f89e5290.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fde1b9ca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fde1b9ca.js.map",
-    "static/js/2.ee93e4cc.chunk.js": "/static/js/2.ee93e4cc.chunk.js",
-    "static/js/2.ee93e4cc.chunk.js.map": "/static/js/2.ee93e4cc.chunk.js.map",
-    "static/js/3.444f6159.chunk.js": "/static/js/3.444f6159.chunk.js",
-    "static/js/3.444f6159.chunk.js.map": "/static/js/3.444f6159.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.ee93e4cc.chunk.js.LICENSE.txt": "/static/js/2.ee93e4cc.chunk.js.LICENSE.txt"
+    "main.js": "/longjoel/static/js/main.f89e5290.chunk.js",
+    "main.js.map": "/longjoel/static/js/main.f89e5290.chunk.js.map",
+    "runtime-main.js": "/longjoel/static/js/runtime-main.087c3cd0.js",
+    "runtime-main.js.map": "/longjoel/static/js/runtime-main.087c3cd0.js.map",
+    "static/js/2.ee93e4cc.chunk.js": "/longjoel/static/js/2.ee93e4cc.chunk.js",
+    "static/js/2.ee93e4cc.chunk.js.map": "/longjoel/static/js/2.ee93e4cc.chunk.js.map",
+    "static/js/3.444f6159.chunk.js": "/longjoel/static/js/3.444f6159.chunk.js",
+    "static/js/3.444f6159.chunk.js.map": "/longjoel/static/js/3.444f6159.chunk.js.map",
+    "index.html": "/longjoel/index.html",
+    "static/js/2.ee93e4cc.chunk.js.LICENSE.txt": "/longjoel/static/js/2.ee93e4cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fde1b9ca.js",
+    "static/js/runtime-main.087c3cd0.js",
     "static/js/2.ee93e4cc.chunk.js",
     "static/js/main.f89e5290.chunk.js"
   ]
