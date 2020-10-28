@@ -1,0 +1,120 @@
+commit 5fcd40ae91acadb7c4526c17225659b86e091815
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Wed Oct 28 10:24:01 2020 -0500
+
+    update page
+
+commit b5db23a811d12e5d99adea2dfc23073461517dee
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 15:18:46 2020 -0500
+
+    Delete CNAME
+
+commit 103df953c00a33f39a678a4ddae1fc0738700f0b
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 15:08:42 2020 -0500
+
+    Create CNAME
+
+commit 2600e1878aeb9e149a427faa055f075014029c29
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 15:06:24 2020 -0500
+
+    .
+
+commit 0477c5e4c201be61cddf240e48c562c3135627e4
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 15:02:04 2020 -0500
+
+    Update index.html
+
+commit a044f1f073600b4a2c85aa6c1bed03b47915a629
+Merge: 277b766 4fdb5e7
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 15:00:38 2020 -0500
+
+    Merge branch 'main' of https://github.com/longjoel/longjoel into main
+
+commit 277b7667fc520d8e107bdbf3ea2d86bdf29b36e4
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 15:00:33 2020 -0500
+
+    Update index.html
+
+commit 0ef58649e3e18852b683b03f3b05b291708563c4
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 14:59:28 2020 -0500
+
+    added base
+
+commit 4fdb5e740a15d270935bb73c37dbf00db207ed47
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 14:55:27 2020 -0500
+
+    Update README.md
+
+commit 4af536dbc954cd82524c7cf0f38d4fde55ad14e1
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 14:54:34 2020 -0500
+
+    yay, finally building docs right.
+
+commit a225107ac4742c44417e549bdbabee3458ef40d7
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Mon Oct 26 14:45:11 2020 -0500
+
+    build UI
+
+commit ff564a5ef8f9e5019c5ad8bb524d5ae4e2ae12da
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 19:53:19 2020 -0500
+
+    adding projects section
+
+commit 5223fb63aa638fdffefc496976e726903fca0acb
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 14:50:06 2020 -0500
+
+    refactoring
+
+commit 8fb4dcbe892a10ba6b57a45a915a0d35cdd318bc
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 13:38:01 2020 -0500
+
+    looking good :D
+
+commit 1f6b3e966bb904de98031e5b4420742fc3145188
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 10:12:36 2020 -0500
+
+    working on it.
+
+commit 9bf2fd73b70610c62567f1be4e51e6ec42cd637a
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 09:11:30 2020 -0500
+
+    update page.
+
+commit c9478d34b01fb4932e9cabc4b60e955f4301254d
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 09:11:01 2020 -0500
+
+    work in progress.
+
+commit 00d7dee47a513861accb9c952e6ebd125b8108bc
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 08:27:30 2020 -0500
+
+    Added docs folder.
+
+commit e3d74a750e1dfa2791c9e4e541e8f54ef24afa46
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 08:14:06 2020 -0500
+
+    first-build
+
+commit ae1b48c4addd7cde423193035fe72d3b4300be11
+Author: Joel Longanecker <joel.longanecker@gmail.com>
+Date:   Sun Oct 25 08:08:37 2020 -0500
+
+    Initial commit

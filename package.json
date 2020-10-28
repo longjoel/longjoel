@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rimraf docs/ && copyfiles -u 1 build/**/* docs/",
+    "build": "git log > src/log.txt && react-scripts build && rimraf docs/ && copyfiles -u 1 build/**/* docs/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

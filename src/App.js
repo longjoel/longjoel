@@ -3,6 +3,13 @@ import WorkHistory from './Sections/WorkHistory';
 import AboutMe from './Sections/AboutMe';
 import Projects from './Sections/Projects';
 
+import historyLocation from './log.txt';
+
+import {useState,useEffect} from 'react';
+
+import MD from './Components/Md';
+
+
 // A fun little divider for the top
 const AppBarDivider = () => <span style={{ marginLeft: '16px', marginRight: '4px' }}><h4>|</h4></span>
 
@@ -24,9 +31,25 @@ const AppBar = () => <div class="navbar navbar-expand navbar-light bg-light stic
 
 </div>
 
+const cleanHistory = (historyText)=>{
+
+  return historyText.split('\n')
+  .filter((x,i)=> i !== 0 &&  x.trim().length >0)
+ .join('\n\n');
+}
 
 function App() {
 
+ const [history, setHistory] = useState('');
+
+ useEffect(()=>{
+(async ()=>{
+  const response = await fetch(historyLocation);
+  const historyText =( await response.text()).split('commit').slice(0,5).map(x=>cleanHistory(x)).join('\n\n');
+  setHistory(historyText);
+  
+})();
+ },[history]);
 
   return (
     <div className="App bg-dark" style={{ height: '100%' }}>
@@ -47,7 +70,9 @@ function App() {
         <p>I graduated from North Dakota State University in the spring of 2010 with a Bachelors of Science degree in Computer Science.</p>
         </div>
       </PageSection>
-
+      <PageSection title="Page History">
+        <small><pre><MD text={history}/></pre></small>
+      </PageSection>
     </div>
   );
 }
