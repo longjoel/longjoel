@@ -2,8 +2,6 @@ import PageSection from './Components/PageSection';
 import WorkHistory from './Sections/WorkHistory';
 import AboutMe from './Sections/AboutMe';
 import Projects from './Sections/Projects';
-import MD from './Components/Md';
-
 
 // A fun little divider for the top
 const AppBarDivider = () => <span style={{ marginLeft: '16px', marginRight: '4px' }}><h4>|</h4></span>
@@ -17,10 +15,11 @@ const AppBar = () => <div class="navbar navbar-expand navbar-light bg-light stic
   <AppBarItem ><b>Joel Longanecker</b></AppBarItem> <AppBarDivider />
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <AppBarItem location="workHistory" >Work History</AppBarItem> <AppBarDivider />
+
     <AppBarItem location="projects" >Projects</AppBarItem> <AppBarDivider />
     <AppBarItem location="contact" >Contact</AppBarItem> <AppBarDivider />
-    <AppBarItem location="education" >Education</AppBarItem> <AppBarDivider />
-    <AppBarItem location="workHistory" >Work History</AppBarItem>
+    <AppBarItem location="education" >Education</AppBarItem> 
   </div>
 
 </div>
@@ -32,7 +31,10 @@ function App() {
   return (
     <div className="App bg-dark" style={{ height: '100%' }}>
       <AppBar />
+
       <AboutMe />
+      <WorkHistory />
+      
       <Projects/>
       <PageSection id="contact" title="Contact" >
         <div className="card p-3 m-3">
@@ -46,7 +48,6 @@ function App() {
         </div>
       </PageSection>
 
-      <WorkHistory />
     </div>
   );
 }
