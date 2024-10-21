@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Good morning and hello"
+date:   2024-10-21 08:19:17 -0500
+categories: greetings.
+---
+I've decided to take some time and jot down some things I have learned. Mostly for me to reference later, but if you find it beneficial, feel free to let me know or share it yourself.
+
+I've been mostly a .net developer for the past 15 years, and have worked on everything from windows CE, to IOT, to large scale logistics systems. I think I have some unique perspectives on software development it might be fun to share. In the sea of information noise that is the internet, you have to want to do this for yourself, otherwise you will spend all your time chasing your audience.
+
+I want to share thoughts on all sorts of neat stuff. Rom hacking, 3d game development, procedural content generation, hardware, 3d printing, code reviewing, ways of working. 
